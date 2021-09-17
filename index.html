@@ -20,8 +20,10 @@
         try {
             const response = await fetch('http://localhost:4566/')
             //console.log(response)
+
             const data = await response.json();
             //console.log(data)
+
             show(data);
         } 
         catch (error) {
